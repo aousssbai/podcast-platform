@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+html {
+  font-family: 'Barlow', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D0A07;
+  color: #fff;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+button, input {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Layout {
+  width: 100vw;
+  height: 100vh;
+}

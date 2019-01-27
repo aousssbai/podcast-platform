@@ -1,0 +1,9 @@
+.Footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.Footer iframe {
+  width: 100vw;
+  height: 80px;
+}

@@ -1,0 +1,132 @@
+.Header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-column-gap: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 1px transparent;
+  color: #fff;
+  border-bottom: solid 1px #d8dce3;
+}
+
+.Header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header .Logo {
+  background-color: #fff;
+}
+
+.Header .Logo > img {
+  object-fit: cover !important;
+  object-position: 0% 0% !important;
+  font-family: 'object-fit: cover !important; object-position: 0% 0% !important;'
+}
+
+.Header .host-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.Header .host-block .host-profile {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.Header .host-block .host-profile-container .host-profile > img {
+  object-fit: cover !important;
+  object-position: 0% 0% !important;
+  font-family: 'object-fit: cover !important; object-position: 0% 0% !important;'
+}
+
+.Header .host-block h2 {
+  margin: 0;
+}
+
+.Header .host-block p {
+  font-size: 1.4rem;
+}
+
+.Header .links-container {
+  grid-column-start: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.Header .newsletter form {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.Header .newsletter input {
+  flex: 1;
+  height: 44px;
+  padding: 10px;
+  border: solid 1px #d8dce3;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.Header .newsletter input::placeholder {
+  font-style: italic;
+  color: rgba(98, 98, 110, 0.9);
+}
+
+.Header .newsletter button {
+  background-color: #FF3D3D;
+  border: none;
+  border-radius: 3px;
+  height: 44px;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.Header .newsletter button:hover {
+  background-color: #cc2a02;
+}
+
+.Header .links {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.Header .links a {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Header .links svg {
+  height: 30px;
+  color: white;
+}
+
+.Header .links .rss {
+  background-color: #FFA500;
+}
+
+.Header .links .podcast {
+  background-color: #9933CC;
+}
+
+.Header .links .google {
+  background-color: #4285F4;
+}
+
+.Header .links .spotify {
+  background-color: #1ED760;
+}
+
+.Header .links .soundcloud {
+  background-color: #FF3300;
+}

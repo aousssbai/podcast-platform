@@ -1,0 +1,58 @@
+.Main {
+  width: 100vw;
+  display: flex;
+  border-bottom: 1px solid;
+}
+
+.Main ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  /* width: calc((100vw - 120px) / 6); */
+  width: 38%;
+}
+
+.Main ul li:not(:last-child) {
+  border-bottom: 1px solid #d8dce3;;
+} 
+
+.Main ul li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+.Main ul li a {
+  padding: 10px;
+}
+
+.Main ul li p {
+  font-size: 11px;
+}
+
+.Main ul li h3 {
+  font-size: 1.5rem;
+}
+
+.Main .description {
+  flex: 1;
+  border-left: 1px solid #d8dce3;;
+  background-color: #fff;
+  color: black;
+}
+
+@media screen and (max-width: 460px) {
+  .Main {
+    flex-direction: column;
+  }
+
+  .Main ul {
+    width: 100vw;
+    height: 300px;
+    overflow: auto;
+  }
+
+  .Main .description {
+    width: 100vw;
+  }
+}
