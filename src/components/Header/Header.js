@@ -40,8 +40,10 @@ export default class Header extends React.Component {
         <Link to="/">
           <Logo className={styles.Logo} />
         </Link>
-        {hosts.map(this.renderHost)}
+       
+        
         <div className={styles.linksContainer}>
+        {hosts.map(this.renderHost)}
           <div className={styles.newsletter}>
             <form onSubmit={e => e.preventDefault()}>
               <input
@@ -54,7 +56,9 @@ export default class Header extends React.Component {
               </button>
             </form>
           </div>
-          <div className={styles.links}>
+          {/*this is the html for the links that are going to move to the footer*/}
+          
+          {/* <div className={styles.links}>
             <a className={styles.podcast} href="#" title="podcast">
               <Podcast />
             </a>
@@ -70,8 +74,9 @@ export default class Header extends React.Component {
             <a className={styles.rss} href="#" title="rss">
               <RSS />
             </a>
-          </div>
+          </div> */}
         </div>
+        
       </header>
     );
   }

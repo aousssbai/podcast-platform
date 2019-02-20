@@ -64,6 +64,9 @@
 }
 
 
+
+
+
 .Header .newsletter form {
   display: flex;
   margin-bottom: 22px;
@@ -95,8 +98,8 @@
 .Header .newsletter button:hover {
   background-color: #cc2a02;
 }
-
-.Header .links {
+/*this is the css for the links that are going to move to the footer*/
+/* .Header .links {
   display: flex;
   justify-content: space-between;
 } 
@@ -130,4 +133,4 @@
 
 .Header .links .soundcloud {
   background-color: #FF3300;
-}
+} */
