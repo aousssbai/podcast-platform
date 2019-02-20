@@ -7,7 +7,7 @@ export default function Logo({ className }) {
     <StaticQuery
       query={graphql`
         query {
-          placeholderImage: file(relativePath: { eq: "logo.jpg" }) {
+          placeholderImage: file(relativePath: { eq: "logo.png" }) {
             childImageSharp {
               fluid(maxWidth: 1900) {
                 ...GatsbyImageSharpFluid

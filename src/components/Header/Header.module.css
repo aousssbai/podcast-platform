@@ -7,6 +7,7 @@
   box-shadow: 1px 1px transparent;
   color: #fff;
   border-bottom: solid 1px #d8dce3;
+  background-image: linear-gradient(-135deg, #000000 0%, #220914 100%);
 }
 
 .Header a {
@@ -14,9 +15,9 @@
   text-decoration: none;
 }
 
-.Header .Logo {
+/* .Header .Logo {
   background-color: #fff;
-}
+} */
 
 .Header .Logo > img {
   object-fit: cover !important;
